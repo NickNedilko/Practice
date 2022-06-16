@@ -1,0 +1,127 @@
+:root{
+    --primary-color:#ffffff;
+    --title-color:#d4c17f;
+    --main-font-family:Raleway, sans-serif;
+    --title-font-family:Playfair Display, sans-serif;
+}
+
+ /* Raleway 400 700
+Roboto 300* 
+Playfair Display 700 */
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+}
+.link{
+    text-decoration: none;
+    color:inherit
+}
+.list{
+list-style-type: none;
+margin: 0;
+}
+.title{
+    margin-top: 0px;
+    font-family: var(--title-font-family);
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.333;
+}
+
+.container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+    
+}
+/* Стилизация Шапки */
+
+.header{
+    display: flex;
+    align-items: center;
+    outline: 2px solid tomato;
+    
+}
+.menu{
+    display: flex;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.05;
+}
+
+.menu-item{
+    margin-right: 43px;
+}
+.menu-item:last-child{
+    margin-right: 0px;
+}
+.submenu{
+    display: none;
+}
+
+/* стилизация секции герой */
+.hero{
+    text-align: center;
+}
+.main-title{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.adress{
+    font-style: normal;
+    margin-right: 159px;
+    margin-top: 200px;
+}
+.adress:last-child{
+    margin-right: 0px;
+}
+
+/* Стилизация секции Наши преимущества */
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.text{
+    margin: 0px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.35;
+}
+/* .text:last-child{
+    margin-left: 0px;
+} */
+.atraction {
+    display: flex;
+    justify-content: center;
+    margin-top: 307px;
+    margin-bottom: 189px;
+}
+.atraction-item{
+    margin-right: 65px;
+}
+.atraction-item:last-child{
+    margin-right: 0px;
+}
+
+
