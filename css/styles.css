@@ -123,5 +123,17 @@ margin: 0;
 .atraction-item:last-child{
     margin-right: 0px;
 }
+.img{
+    display: block;
+}
+.flat{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+.flat> .example{
+    width: 535px;
+    margin: px;
+}
 
 
