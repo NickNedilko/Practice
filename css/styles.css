@@ -67,9 +67,24 @@ margin: 0;
 }
 
 /* стилизация секции герой */
+.section-hero{
+    width: 1920px;
+    height: 744px;
+    margin: 0 auto;
+    padding-top: 228px;
+    padding-bottom: 28px;
+   
+    background-image: linear-gradient(180deg, #242B33 6.56%, rgba(36, 43, 51, 0.3) 50.31%, #242B33 89.37%);
+    background-image: url(../images/Hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .hero{
+   
     text-align: center;
 }
+
 .main-title{
     font-size: 48px;
     text-align: center;
